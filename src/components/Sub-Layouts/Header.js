@@ -11,7 +11,7 @@ class HeaderComponent extends Component {
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid ">
           <a className="navbar-nav  mx-auto " href="/homePage">
-            <img src="/logo/logodemoblack.png" className="logoIcon" alt="logo" />
+            <img src= {process.env.PUBLIC_URL +"/logo/logodemoblack.png"} className="logoIcon" alt="logo" />
           </a>
         </div>
       </nav>

@@ -34,7 +34,7 @@ class FooterComponent extends Component {
                 <li className="">
                   
                     <div>
-                      <img src="/logo/logofull.png" className="logo-Footer" alt="logo" />  
+                      <img src= {process.env.PUBLIC_URL +"/logo/logofull.png"} className="logo-Footer" alt="logo" />  
                     </div>
                   
                 </li>
