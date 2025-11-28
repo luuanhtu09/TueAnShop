@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TueAnShop/static/css/main.70f8c085.css",
-    "main.js": "/TueAnShop/static/js/main.0bb98749.js",
+    "main.js": "/TueAnShop/static/js/main.b25b4cf2.js",
     "reactPlayerYouTube.js": "/TueAnShop/static/js/reactPlayerYouTube.c33f6560.chunk.js",
     "reactPlayerSoundCloud.js": "/TueAnShop/static/js/reactPlayerSoundCloud.2dbbfc39.chunk.js",
     "reactPlayerVimeo.js": "/TueAnShop/static/js/reactPlayerVimeo.455d9dae.chunk.js",
@@ -19,7 +19,7 @@
     "static/js/488.22a3fe58.chunk.js": "/TueAnShop/static/js/488.22a3fe58.chunk.js",
     "index.html": "/TueAnShop/index.html",
     "main.70f8c085.css.map": "/TueAnShop/static/css/main.70f8c085.css.map",
-    "main.0bb98749.js.map": "/TueAnShop/static/js/main.0bb98749.js.map",
+    "main.b25b4cf2.js.map": "/TueAnShop/static/js/main.b25b4cf2.js.map",
     "reactPlayerYouTube.c33f6560.chunk.js.map": "/TueAnShop/static/js/reactPlayerYouTube.c33f6560.chunk.js.map",
     "reactPlayerSoundCloud.2dbbfc39.chunk.js.map": "/TueAnShop/static/js/reactPlayerSoundCloud.2dbbfc39.chunk.js.map",
     "reactPlayerVimeo.455d9dae.chunk.js.map": "/TueAnShop/static/js/reactPlayerVimeo.455d9dae.chunk.js.map",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.70f8c085.css",
-    "static/js/main.0bb98749.js"
+    "static/js/main.b25b4cf2.js"
   ]
 }
