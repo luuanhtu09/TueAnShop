@@ -17,6 +17,7 @@ class BodyComponent extends Component {
           <Route path="" element={<HomePageComponent/>} />
           <Route path="/" element={<HomePageComponent/>} />
           <Route path="/TueAnShop" element={<HomePageComponent/>} />
+          <Route path="/TueAnShop/" element={<HomePageComponent/>} />
           <Route path="/homepage" element={<HomePageComponent />} />
           <Route path="/contact" element={<ContactComponent/>} />
           <Route path="/post" element={<PostComponent/>} />

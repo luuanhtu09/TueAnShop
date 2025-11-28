@@ -5,7 +5,7 @@ class Post7Component extends Component {
   constructor(props) {
     super(props);
     this.state ={
-      img1 : process.env.PUBLIC_URL + '/photoPost/photobai7-1.jfif',
+      img1 : process.env.PUBLIC_URL + '/photoPost/photobai71.jfif',
     }
   }
   

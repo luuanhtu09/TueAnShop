@@ -131,6 +131,7 @@ class PostComponent extends Component {
                           case '5': return <Post5Component/>;
                           case '6': return <Post6Component/>;
                           case '7': return <Post7Component/>;
+                          case '8': return <Post7Component/>;
                           default: return null;  
                         }
                     })()}
