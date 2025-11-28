@@ -40,7 +40,7 @@ class Post1Component extends Component {
 
          <div className='box-detail'>
           <div className='hinhanh'>
-          <img src='/photoPost/photobai1.jpg' className=''></img>
+          <img src={process.env.PUBLIC_URL + '/photoPost/photobai1.jpg'} className=''></img>
          
           </div>
           <div className='noidung'>

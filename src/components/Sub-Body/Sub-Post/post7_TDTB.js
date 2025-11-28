@@ -42,7 +42,7 @@ class Post7Component extends Component {
           </p>
           <div className ='box-detail'>
           <div className='hinhanh'>
-          <img src='https://bcp.cdnchinhphu.vn/Uploaded/nguyenxuanhong/2021_02_05/TRAU%20BAC%201.JPG' className=''></img>
+          <img src={process.env.PUBLIC_URL + 'https://bcp.cdnchinhphu.vn/Uploaded/nguyenxuanhong/2021_02_05/TRAU%20BAC%201.JPG'} className=''></img>
          
           </div>
           {/* Trâu bạc */}

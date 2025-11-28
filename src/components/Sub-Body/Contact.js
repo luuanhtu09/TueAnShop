@@ -57,7 +57,7 @@ class ContactComponent extends Component {
                     </Link>
                   </p>
                   <p>
-                  <img src='qrcode/qrcode-pagefacebook.png'  className="qrcode" alt="..."/>
+                  <img src={process.env.PUBLIC_URL + 'qrcode/qrcode-pagefacebook.png'}  className="qrcode" alt="..."/>
                   </p>
                   
                 </p>

@@ -15,7 +15,7 @@ class Post4Component extends Component {
       <>
       <div className='box-detail'>
         <div className='hinhanh'>
-          <img src='/photoPost/huong-dan-mua-hang.jpg' className=''></img>
+          <img src={process.env.PUBLIC_URL + '/photoPost/huong-dan-mua-hang.jpg'} className=''></img>
         </div>
         <div className='noidung'></div>
       </div>

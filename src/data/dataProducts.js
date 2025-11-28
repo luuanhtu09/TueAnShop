@@ -17,7 +17,7 @@ let items = [
     {
         id          : uuidv4(),
         maSP        : 'COH001',
-        hinhAnh     : ['/photoPs/COH001_1.png', '/photoPs/COH001_2.png', '/photoPs/COH001_3.png', '/photoPs/COH001_4.png', '/photoPs/SP001_5.png', '/photoPs/COH001_6.png' ],
+        hinhAnh     : [process.env.PUBLIC_URL + '/photoPs/COH001_1.png', process.env.PUBLIC_URL + '/photoPs/COH001_2.png', process.env.PUBLIC_URL + '/photoPs/COH001_3.png', process.env.PUBLIC_URL + '/photoPs/COH001_4.png', process.env.PUBLIC_URL + '/photoPs/SP001_5.png', process.env.PUBLIC_URL + '/photoPs/COH001_6.png' ],
         tenSP       : 'Lược 5 răng cung tròn', 
         khoangGia   : '85.000-110.000 VNđ',
         mtChung     : 'Lược mát xa đa bí năng có công dụng chải tóc; mát xa đầu, mặt, cổ vai gáy; bấm huyệt lưu thông khí huyết,...',
@@ -30,7 +30,7 @@ let items = [
     {
         id          : uuidv4(),
         maSP        : 'COH002',
-        hinhAnh     : ['/photoPs/COH002_1.png', '/photoPs/COH002_2.png', '/photoPs/COH002_3.png', '/photoPs/COH002_4.png', '/photoPs/SP002_5.png', '/photoPs/COH002_6.png' ],
+        hinhAnh     : [process.env.PUBLIC_URL + '/photoPs/COH002_1.png', process.env.PUBLIC_URL + '/photoPs/COH002_2.png', process.env.PUBLIC_URL + '/photoPs/COH002_3.png', process.env.PUBLIC_URL + '/photoPs/COH002_4.png', process.env.PUBLIC_URL + '/photoPs/SP002_5.png', process.env.PUBLIC_URL + '/photoPs/COH002_6.png' ],
         tenSP       : 'Lược 5 răng yên ngựa', 
         khoangGia   : '85.000-110.000 VNđ',
         mtChung     : 'Lược mát xa đa năng có công dụng chải tóc; mát xa đầu, mặt, cổ vai gáy; bấm huyệt lưu thông khí huyết,...',
@@ -43,7 +43,7 @@ let items = [
     {
         id          : uuidv4(),
         maSP        : 'COH003',
-        hinhAnh     : ['/photoPs/COH003_1.png', '/photoPs/COH003_2.png', '/photoPs/COH003_3.png', '/photoPs/COH003_4.png', '/photoPs/SP003_5.png', '/photoPs/COH003_6.png' ],
+        hinhAnh     : [process.env.PUBLIC_URL + '/photoPs/COH003_1.png', process.env.PUBLIC_URL + '/photoPs/COH003_2.png', process.env.PUBLIC_URL + '/photoPs/COH003_3.png', process.env.PUBLIC_URL + '/photoPs/COH003_4.png', process.env.PUBLIC_URL + '/photoPs/SP003_5.png', process.env.PUBLIC_URL + '/photoPs/COH003_6.png' ],
         tenSP       : 'Lược 7 răng thưa', 
         khoangGia   : '85.000-110.000 VNđ',
         mtChung     : 'Lược mát xa đa năng có công dụng chải tóc; mát xa đầu, mặt, cổ vai gáy; bấm huyệt lưu thông khí huyết,...',
@@ -56,7 +56,7 @@ let items = [
     {
         id          : uuidv4(),
         maSP        : 'COH004',
-        hinhAnh     : ['/photoPs/COH004_1.png', '/photoPs/COH004_2.png', '/photoPs/COH004_3.png', '/photoPs/COH004_4.png', '/photoPs/SP004_5.png', '/photoPs/COH004_6.png' ],
+        hinhAnh     : [process.env.PUBLIC_URL + '/photoPs/COH004_1.png', process.env.PUBLIC_URL + '/photoPs/COH004_2.png', process.env.PUBLIC_URL + '/photoPs/COH004_3.png', process.env.PUBLIC_URL + '/photoPs/COH004_4.png', process.env.PUBLIC_URL + '/photoPs/SP004_5.png', process.env.PUBLIC_URL + '/photoPs/COH004_6.png' ],
         tenSP       : 'Bạch tuộc 5 tua', 
         khoangGia   : '85.000-110.000 VNđ',
         mtChung     : 'Lược mát xa đa năng có công dụng chải tóc; mát xa đầu, mặt, cổ vai gáy; bấm huyệt lưu thông khí huyết,...',
@@ -69,7 +69,7 @@ let items = [
     {
         id          : uuidv4(),
         maSP        : 'COH005',
-        hinhAnh     : ['/photoPs/COH005_1.png', '/photoPs/COH005_2.png', '/photoPs/COH005_3.png', '/photoPs/COH005_4.png', '/photoPs/SP005_5.png', '/photoPs/COH005_6.png' ],
+        hinhAnh     : [process.env.PUBLIC_URL + '/photoPs/COH005_1.png', process.env.PUBLIC_URL + '/photoPs/COH005_2.png', process.env.PUBLIC_URL + '/photoPs/COH005_3.png', process.env.PUBLIC_URL + '/photoPs/COH005_4.png', process.env.PUBLIC_URL + '/photoPs/SP005_5.png', process.env.PUBLIC_URL + '/photoPs/COH005_6.png' ],
         tenSP       : 'Nơm ống gió răng nhọn', 
         khoangGia   : '100.000-120.000 VNđ',
         mtChung     : 'Lược mát xa đa năng có công dụng chải tóc; mát xa đầu, mặt, cổ vai gáy; bấm huyệt lưu thông khí huyết,...',

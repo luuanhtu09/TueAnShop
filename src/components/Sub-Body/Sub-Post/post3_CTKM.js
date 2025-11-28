@@ -13,7 +13,7 @@ class Post3Component extends Component {
     
     return (
       <>
-      <img src='/photoPost/khuyen-mai.png' className=''></img>
+      <img src= {process.env.PUBLIC_URL + '/photoPost/khuyen-mai.png'} className=''></img>
         <div>
           <p>Hiện nay, các chương trình khuyến mãi dành cho sản phẩm lược sừng đang được triển khai 
             nhằm mang đến cơ hội tiết kiệm cho khách hàng. Khi mua lược sừng, 

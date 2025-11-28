@@ -9,14 +9,14 @@ class ListHighLightProductsComponent extends Component {
     this.state = {
 
       products : [
-        { id: 1, name: 'Chải cơ sừng trâu trắng', price: '100k', image: '/photoPs/COH001_1.png' },
-        { id: 2, name: 'Lược đuôi chuột trâu trắng', price: '150k', image: '/photoPs/COH001_2.png' },
-        { id: 3, name: 'Bút gạch bạch huyết', price: '200k', image: '/photoPs/COH002_1.png' },
-        { id: 4, name: 'Trái tim sừng Guasha', price: '250k', image: '/photoPs/COH002_2.png' },
-        { id: 5, name: 'óLược 5 răng yên ngựa', price: '300k', image: '/photoPs/COH001_1.png' },
-        { id: 6, name: 'Nơm ống gió', price: '350k', image: '/photoPs/COH001_2.png' },
-        { id: 7, name: 'Lược 7 răng thưa', price: '300k', image: '/photoPs/COH003_1.png' },
-        { id: 8, name: 'Gùi xà cầy xẻ', price: '350k', image: '/photoPs/COH003_2.png' },
+        { id: 1, name: 'Chải cơ sừng trâu trắng', price: '100k', image: process.env.PUBLIC_URL + '/photoPs/COH001_1.png' },
+        { id: 2, name: 'Lược đuôi chuột trâu trắng', price: '150k', image: process.env.PUBLIC_URL + '/photoPs/COH001_2.png' },
+        { id: 3, name: 'Bút gạch bạch huyết', price: '200k', image: process.env.PUBLIC_URL + '/photoPs/COH002_1.png' },
+        { id: 4, name: 'Trái tim sừng Guasha', price: '250k', image: process.env.PUBLIC_URL + '/photoPs/COH002_2.png' },
+        { id: 5, name: 'óLược 5 răng yên ngựa', price: '300k', image: process.env.PUBLIC_URL + '/photoPs/COH001_1.png' },
+        { id: 6, name: 'Nơm ống gió', price: '350k', image: process.env.PUBLIC_URL + '/photoPs/COH001_2.png' },
+        { id: 7, name: 'Lược 7 răng thưa', price: '300k', image: process.env.PUBLIC_URL + '/photoPs/COH003_1.png' },
+        { id: 8, name: 'Gùi xà cầy xẻ', price: '350k', image: process.env.PUBLIC_URL + '/photoPs/COH003_2.png' },
       ]
     };
   }
