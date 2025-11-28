@@ -1,0 +1,78 @@
+
+/* 
+bài đăng gồm có:
++ tiêu đề: "tên bài viết"
++ mô tả: "mô tả qua bài viết
++ nội dung: Nội dung bài viết
++ hình ảnh: hình ảnh đại diện bài đăng và hình ảnh mô tả thuộc trong bài viết đóđó
+
+1. box chứa demo giới thiệu bài đăng
+- box 1: bốc chứa thông tin bài đăng
+ 
+2. box chứa full bài đăng
+*/
+/* 0: box: list các sub-bài viết */
+.box-list{
+    width: 100%;
+    
+
+}
+/* 1: box sub bài viết */
+.box-item{
+    width: auto;
+    height: auto;
+    /* border: 1px; */
+    box-shadow: 0 0 10px #ccc;
+    padding: 10px;
+    margin: 15px 0px;
+    /* justify-content: space-around; */
+}
+.box-item .hinhnen{
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 50px;
+    min-height: 50px;
+}
+.tieu-de{
+    color: black;
+}
+.tieu-de:hover{
+   color: rgb(47, 39, 198);
+}
+.decript{
+
+}
+
+/* 2: chi tiết bài viết */
+.app{
+    margin-top: -15px;
+}
+.box-detail{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.box-detail .hinhanh{
+    max-width: 600px;
+    min-width: 290px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.hinhanh img{
+    width: 100%;
+    height: 100%;
+    max-height: 500px;
+    display: block;
+    object-fit: cover;
+
+}
+.noidung{
+    max-width: 500px;
+    min-width: 290px;
+    height: 100%;
+    /* margin-top: 15px; */
+    /* margin-left: 90px; */
+     padding-left: 20px;
+    /*padding-right: 20px; */
+}

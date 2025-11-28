@@ -1,0 +1,28 @@
+/*
+- liên hệ: 
+    + câu liên hệ "xin vùng lòng,... 
+    + địa chỉ liên lạc, kênh liên lạc..
+*/
+/**/
+.contact-Background {
+  max-height: 200px;
+    
+  padding-top: 50px;
+  text-align: center;
+}
+.contact-background-info{
+  padding-top: 40px;
+  text-align: center;
+}
+  
+
+  /*  */
+.qrcode{
+ width: 100px;
+ height: 100px;
+}
+
+.textlink:hover {
+  /* background-color: yellow; */
+  font-size: 18px;
+}

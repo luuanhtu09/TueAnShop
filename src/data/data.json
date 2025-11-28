@@ -1,0 +1,41 @@
+
+{
+    "users": [
+        {
+            "userID": 1,
+            "name": "Lê lê lê",
+            "age": 12,
+            "favoriteSports": ["Follball", "teniss", "badminton"],
+            "contactNumbers": [
+                {
+                    "type": "Home",
+                    "number": "001-005-111"
+                },
+                {
+                    "type": "Office",
+                    "number": "221-115-222"
+                }
+            ]
+        },
+        {
+            "userID": 2,
+            "name": "Lê lê nê",
+            "age": 17,
+            "favoriteSports": [
+                "Follball",
+                "teniss", 
+                "badminton"
+            ],
+            "contactNumbers": [
+                {
+                    "type": "Home",
+                    "number": "001-005-111"
+                },
+                {
+                    "type": "Office",
+                    "number": "221-115-222"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+/*
+- header's Home: 
+    +  khung text: "Trang chủ"
+    +  khung ảnhảnh: "Banner" + "Logo"
+- body's Home:
+    + khung text: "Giới thiệu về Tuệ An"
+    + khung danh sách các sản phẩm bán chạy: ""
+    + khung danh sách các video tuệ an cung cấp: ""
+- footer's Home:
+    +_blank_
+
+*/
+.mCom{
+    margin-bottom: 20px;
+}
+/*----------slide show banner------------*/
+.slide-homepage{
+    width: 100%;
+    max-height: 400px;
+      
+}
+.photo-slide{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+/*----------slogan of page ------------*/
+.slogan-homepage{
+
+}
+/* ---------Slide list productss--------- */
+.header-list{
+    font-weight: bold;
+}
+.crl-ctr-pre-w-list{
+    width: 20px;
+    background-color:bisque;
+    margin: 5px 0px 5px -20px;
+    border-radius: 100% 0% 0% 100%;
+}
+.crl-ctr-next-w-list{
+    width: 20px;
+    background-color:bisque;
+    margin: 5px -20px 5px 0px;
+    border-radius: 0% 100% 100% 0%;
+
+}
+.crl-ctr-pre-next-w-list:hover{
+    background-color:bisque;
+}
+.crl-ctr-icon-w-list{
+    width: 40px;
+    /* background-color: rgba(226, 188, 188, 0.8); */
+}
+
+/* list */
+
+/* videoo */
+.video-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+}
+
+/* .video-item{
+  flex-grow:1;
+  flex-basis: 200;
+} */
+
+.videoo{
+    width: 100%;
+    aspect-ratio: 16/9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.list-videoo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+}

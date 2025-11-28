@@ -1,0 +1,94 @@
+/*all*/
+/* Cỡ chữ, màu chữ chung*/
+
+/*-----------------------------header's Page-------------------------------*/
+/* tab bar - menu list*/
+.logoIcon {
+    width: 90px;
+    height: 60px;
+    /* margin-left: 12px;
+    margin-right: 12px; */
+  }
+
+  .navbar-brand{
+    /* margin-left: 30px; */
+  }
+  .navbar{
+    /* background-color: black; */
+    background-color: beige;
+    /* background-color: white; */
+  }
+  .navbar-toggler{
+    border: none;
+    font-size: 1.25rem;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none;
+    outline: none;
+  }
+  .nav-NavLink {
+    color: rgb(53, 52, 52);
+    font-weight: 500;
+    position: relative;
+    text-decoration: none !important;
+    /* text-decoration: none !important;
+    margin-right: 20px;
+    margin-left: 20px; */
+
+  }
+  .nav-NavLink:hover,.nav-NavLink.active {
+    color: black;
+    
+    /* font-size: 17px; */
+  }
+  .nav-NavLink::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #F4A460;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+    
+  }
+  .nav-NavLink:hover::before, .nav-NavLink.active::before{
+    width: 100%;
+    visibility: visible;
+  }
+
+/*-----------------------------body's Page-------------------------------*/
+/*container + */
+/* container */
+.container-body{
+    color: black;
+    min-height: 600px;
+    /* background-color: beige; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* margin-top: 20px; */
+    
+}
+.header_content {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/*-------------------------------footer'Page-----------------------------*/
+/**/
+/* màu của footer, kích cỡ khung footerfooter*/
+.footer-Background{
+  background-color: beige;
+    color: black;
+    padding: 30px;
+} 
+.logo-Footer{
+  width: 250px;
+  height: 90px;
+}
+
+/* .scrollBehavior{
+  scroll-behavior: smooth;
+} */
