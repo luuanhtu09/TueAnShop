@@ -5,7 +5,17 @@ import '../../../styles/home-style.css';
 // import slide3 from '/SlideBanner/slider2.jpg';
 
 class SlideBannerComponent extends Component {
+  constructor(props) {
+    super(props);
+    // Danh sách các sản phẩm nổi bật
+    this.state = {
+      slides1 : process.env.PUBLIC_URL + '/SlideBanner/slider1.jpeg',
+      slides2: process.env.PUBLIC_URL + '/SlideBanner/slider2.jpg',
+      slides3: process.env.PUBLIC_URL + '/SlideBanner/slider3.jpg',
+    };
+  }
   render() {
+    const {slides1,slides2,slides3}= this.state;
     return (
       <>
       {/* light Light Dark dark */}
@@ -18,7 +28,7 @@ class SlideBannerComponent extends Component {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="10000">
-            <img src={process.env.PUBLIC_URL + "/SlideBanner/slider1.jpeg"} class="d-block w-100 slide-homepage" alt="..."/>
+            <img src={slides1} class="d-block w-100 slide-homepage" alt="..."/>
             <div className="carousel-caption d-none d-md-block">
               <h5>Duy trì và phát triển</h5>
               <p>
@@ -27,7 +37,7 @@ class SlideBannerComponent extends Component {
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src={process.env.PUBLIC_URL + '/SlideBanner/slider2.jpg'} className="d-block w-100 slide-homepage" alt="..."/>
+            <img src={slides2} className="d-block w-100 slide-homepage" alt="..."/>
             <div class="carousel-caption d-none d-md-block">
               <h5>Chăm sóc và nâng niu</h5>
               <p>
@@ -36,7 +46,7 @@ class SlideBannerComponent extends Component {
             </div>
           </div>
           <div class="carousel-item ">
-            <img src={process.env.PUBLIC_URL + '/SlideBanner/slider2.jpg'} className="d-block w-100 slide-homepage" alt="..."/>
+            <img src={slides3} className="d-block w-100 slide-homepage" alt="..."/>
             <div class="carousel-caption d-none d-md-block ">
               <h5>Đồng hàng và vững bước</h5>
               <p>

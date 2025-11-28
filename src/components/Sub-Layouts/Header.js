@@ -5,13 +5,21 @@ import '../../styles/layout-style.css';
 // import logo from '../../logodemoblack.png';
 
 class HeaderComponent extends Component {
+   constructor(props) {
+    super(props);
+    this.state ={
+      logo : process.env.PUBLIC_URL + '/logo/logodemoblack.png',
+      
+    }
+  }
   render() {
+    const {logo} = this.state;
     return (
       <div>
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid ">
           <a className="navbar-nav  mx-auto " href="/homePage">
-            <img src= {process.env.PUBLIC_URL +"/logo/logodemoblack.png"} className="logoIcon" alt="logo" />
+            <img src= {logo} className="logoIcon" alt="logo" />
           </a>
         </div>
       </nav>

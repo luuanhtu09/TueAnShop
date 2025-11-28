@@ -52,7 +52,7 @@ class PostComponent extends Component {
         },
         {
           postid: '7',
-          img   : process.env.PUBLIC_URL + "photoPost/photobai7.jpg",
+          img   : process.env.PUBLIC_URL + '/photoPost/photobai7.jpg',
           name  : 'Trâu bạc - Trâu trắng - Trâu hồng - Trâu đen ?',
           decrip: 'Trâu bạc, trâu trắng, trâu hồng là trâu gì? Trâu bạc tốt hơn trâu đen không? Lược sừng, đồ diện chuẩn sừng bây giờ được làm bằng sừng trâu gì? nó là sừng trâu ta hay sừng trâu nhập ngoại? Trâu bạc này là Trâu bạc ở Việt Nam hay trâu bạc nhập khẩu?',
         },

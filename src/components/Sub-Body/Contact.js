@@ -6,13 +6,14 @@ class ContactComponent extends Component {
     super(props);
     this.state ={
       linkPageFacbook: 'https://www.facebook.com/tuean.tcmn/',
-      linkGroubFB: '',
+      linkGroubFB: 'https://www.facebook.com/tuean.tcmn/',
       linkYoutube: 'https://www.youtube.com/@AnTuệ-l6g',
+      qrcode : process.env.PUBLIC_URL + '/qrcode/qrcode-pagefacebook.png',
       
     }
   }
   render() {
-    const {linkPageFacbook, linkGroubFB, linkYoutube} = this.state;
+    const {linkPageFacbook, linkGroubFB, linkYoutube, qrcode} = this.state;
     return (
       <div className='container container-body'>
         <div className="">
@@ -57,7 +58,7 @@ class ContactComponent extends Component {
                     </Link>
                   </p>
                   <p>
-                  <img src={process.env.PUBLIC_URL + 'qrcode/qrcode-pagefacebook.png'}  className="qrcode" alt="..."/>
+                  <img src={qrcode}  className="qrcode" alt="..."/>
                   </p>
                   
                 </p>

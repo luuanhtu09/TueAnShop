@@ -12,6 +12,7 @@ class FooterComponent extends Component {
       linkPageFacbook: 'https://www.facebook.com/tuean.tcmn/',
       linkGroubFB: '',
       linkYoutube: 'https://www.youtube.com/@AnTuệ-l6g',
+      logo : process.env.PUBLIC_URL + '/logo/logofull.png',
       
     }
   }
@@ -20,7 +21,7 @@ class FooterComponent extends Component {
   };
 
   render() {
-    const {linkPageFacbook, linkGroubFB, linkYoutube} = this.state;
+    const {linkPageFacbook, linkGroubFB, linkYoutube, logo} = this.state;
     return (
       <>
         {/* Grid container */}
@@ -34,7 +35,7 @@ class FooterComponent extends Component {
                 <li className="">
                   
                     <div>
-                      <img src= {process.env.PUBLIC_URL +"/logo/logofull.png"} className="logo-Footer" alt="logo" />  
+                      <img src= {logo} className="logo-Footer" alt="logo" />  
                     </div>
                   
                 </li>

@@ -5,13 +5,13 @@ class Post7Component extends Component {
   constructor(props) {
     super(props);
     this.state ={
-      
+      img1 : process.env.PUBLIC_URL + '/photoPost/photobai7-1.jfif',
     }
   }
   
   render() {
     //Cách bảo quản đò sừng
-    
+    const {img1}= this.state;
     return (
       <>
       <p>Vừa qua Tuệ An nhận được rất nhiều câu hỏi như:
@@ -42,7 +42,7 @@ class Post7Component extends Component {
           </p>
           <div className ='box-detail'>
           <div className='hinhanh'>
-          <img src={process.env.PUBLIC_URL + 'https://bcp.cdnchinhphu.vn/Uploaded/nguyenxuanhong/2021_02_05/TRAU%20BAC%201.JPG'} className=''></img>
+          <img src={img1} className=''></img>
          
           </div>
           {/* Trâu bạc */}

@@ -4,18 +4,18 @@ class Post4Component extends Component {
   constructor(props) {
     super(props);
     this.state ={
-      
+      img1 : process.env.PUBLIC_URL + '/photoPost/huong-dan-mua-hang.jpg',
     }
   }
   
   render() {
     //hướng dẫn đặt hàng
-    
+    const {img1}= this.state;
     return (
       <>
       <div className='box-detail'>
         <div className='hinhanh'>
-          <img src={process.env.PUBLIC_URL + '/photoPost/huong-dan-mua-hang.jpg'} className=''></img>
+          <img src={img1} className=''></img>
         </div>
         <div className='noidung'></div>
       </div>

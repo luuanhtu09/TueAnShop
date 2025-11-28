@@ -15,7 +15,7 @@ class ProductComponent extends Component {
       strSearch: '', 
       suggestions: [
         "Sừng trâu trắng",
-        "Sừng trâu đen VIP",
+        "Sừng trâu ta đen VIP",
         "Lược chải tóc",
         "Lược mát xa",
         "Mát xa mặt",

@@ -4,16 +4,16 @@ class Post3Component extends Component {
   constructor(props) {
     super(props);
     this.state ={
-      
+      img1 : process.env.PUBLIC_URL + '/photoPost/khuyen-mai.png',
     }
   }
   
   render() {
   //Giới thiệu các khuyến mãi
-    
+    const {img1}= this.state;
     return (
       <>
-      <img src= {process.env.PUBLIC_URL + '/photoPost/khuyen-mai.png'} className=''></img>
+      <img src= {img1} className=''></img>
         <div>
           <p>Hiện nay, các chương trình khuyến mãi dành cho sản phẩm lược sừng đang được triển khai 
             nhằm mang đến cơ hội tiết kiệm cho khách hàng. Khi mua lược sừng, 
